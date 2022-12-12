@@ -1,10 +1,12 @@
 const body = document.body;
 
+const pad = (num) => `${num}`.padStart(2, '0');
+
 const getHex = () => {
 	const date = new Date();
-	const hour = date.getHours();
-	const minute = date.getMinutes();
-	const second = date.getSeconds();
+	const hour = pad(date.getHours());
+	const minute = pad(date.getMinutes());
+	const second = pad(date.getSeconds());
 	const hex = `#${hour}${minute}${second}`;
 
 	return hex;
