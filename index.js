@@ -40,3 +40,8 @@ const set = () => {
 }
 
 set();
+
+// after set called, add background color transition
+setTimeout(() => {
+	body.className = 'transition';
+}, 200);
