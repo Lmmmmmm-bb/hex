@@ -12,7 +12,7 @@ body {
   color: #fff;
   font-weight: 500;
   font-size: 24px;
-  font-family: 'Varela Round', sans-serif;
+  font-family: 'Varela Round', sans-serif, -apple-system;
   user-select: all;
 }
 
